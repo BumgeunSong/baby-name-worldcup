@@ -1,0 +1,186 @@
+import { Candidate } from '@/types';
+
+export const seedCandidates: Candidate[] = [
+  {
+    id: 'seed-1',
+    name: '오전',
+    author: '송형선',
+    imageUrl: 'https://cdn-icons-png.freepik.com/512/5774/5774952.png',
+  },
+  {
+    id: 'seed-2',
+    name: '오후',
+    author: '송형선',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/6854/6854657.png',
+  },
+  {
+    id: 'seed-3',
+    name: '오늘',
+    author: '송형선',
+  },
+  {
+    id: 'seed-4',
+    name: '오물',
+    author: '송형선',
+    reason: '아기 입모양 오물오물 생각했는데',
+  },
+  {
+    id: 'seed-5',
+    name: '오리',
+    author: '송형선',
+  },
+  {
+    id: 'seed-6',
+    name: '오해',
+    author: '송형선',
+  },
+  {
+    id: 'seed-7',
+    name: '오매기',
+    author: '송범근',
+    reason: '매순간을 기회로 만들어라 해서',
+  },
+  {
+    id: 'seed-8',
+    name: '오예',
+    author: '이병찬',
+    reason: '항상 웃음만 가득하라고',
+  },
+  {
+    id: 'seed-9',
+    name: '오일장',
+    author: '이병찬',
+    reason: '항상 활기찬 삶을 살라고',
+  },
+  {
+    id: 'seed-10',
+    name: '오펜하이머',
+    author: '최광희B',
+    reason: '이과 -> 오펜하이머',
+    imageUrl: 'https://i.namu.wiki/i/lzGhl-NVY2r8iacSh7khns8K3b4QT7JmJzM1KIhGAOKYtkTq-BY000E4LQj75MEV_if6Sb0Z_tFkDkSyokoyvg.webp',
+  },
+  {
+    id: 'seed-11',
+    name: '오천석',
+    author: '최광희B',
+    reason: '문과 -> 오천석',
+  },
+  {
+    id: 'seed-12',
+    name: '오레오',
+    author: '주여진',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3joec6uvGL0lQkHaMDOyEQx1Zp9lWSyIvfw&s',
+  },
+  {
+    id: 'seed-13',
+    name: '오믈렛',
+    author: '조성윤',
+    reason: '약간 해외에서 친숙하게 모든 사람들에게 사랑받으라는 의미에서',
+    imageUrl: 'https://blog.kakaocdn.net/dna/M9bN5/btsIdhdcSEB/AAAAAAAAAAAAAAAAAAAAAFMZYBVYYC3jrvUVWaIjem8Ov09_x2DJJtqMAKshAwdI/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=AgWLIVU%2FizAEwJIa9xFTW0NK3To%3D',
+  },
+  {
+    id: 'seed-14',
+    name: '오대양',
+    author: '주여진',
+  },
+  {
+    id: 'seed-15',
+    name: '오억원',
+    author: '주여진',
+    reason: '(reference: 이억원 금융위 위원장)',
+  },
+  {
+    id: 'seed-16',
+    name: '오세용',
+    author: '조유진',
+  },
+  {
+    id: 'seed-17',
+    name: '오필승',
+    author: '조유진',
+  },
+  {
+    id: 'seed-18',
+    name: '오운완',
+    author: '조유진',
+  },
+  {
+    id: 'seed-19',
+    name: '오케이',
+    author: '조유진',
+  },
+  {
+    id: 'seed-20',
+    name: '오라이',
+    author: '주여진',
+  },
+  {
+    id: 'seed-21',
+    name: '오필승코리아',
+    author: '박태임',
+  },
+  {
+    id: 'seed-22',
+    name: '오재점출',
+    author: '주여진',
+  },
+  {
+    id: 'seed-23',
+    name: '오창영',
+    author: '박태임',
+  },
+  {
+    id: 'seed-24',
+    name: '오겡끼데스까',
+    author: '주여진',
+  },
+  {
+    id: 'seed-25',
+    name: '오라클',
+    author: '박태임',
+    reason: '상한가 치라고',
+  },
+  {
+    id: 'seed-26',
+    name: '오미자',
+    author: '박태임',
+    reason: '성인되기 전까지',
+  },
+  {
+    id: 'seed-27',
+    name: '오베론',
+    author: '조성윤',
+    reason: '소속에 구애받지 말고, 독자적인 자기만의 길을 가라는 의미로',
+  },
+  {
+    id: 'seed-28',
+    name: '오레가노',
+    author: '주여진',
+    reason: '장수하라고',
+  },
+  {
+    id: 'seed-29',
+    name: '오뎅바',
+    author: '조유진',
+    reason: '추운 겨울날 따뜻한 아지트 같은 사람이 되길 ..',
+  },
+  {
+    id: 'seed-30',
+    name: '오마이갓',
+    author: '클로드',
+    reason: '감탄사처럼 놀라운 존재가 되길',
+  },
+  {
+    id: 'seed-31',
+    name: '오징어',
+    author: '클로드',
+    reason: '유연하게 어디든 적응하는 사람이 되길',
+    imageUrl: 'https://img.freepik.com/free-vector/cute-squid-character-seafood-restaurant-logo-hand-draw-vector-illustration_56104-2130.jpg?semt=ais_se_enriched&w=740&q=80',
+  },
+  {
+    id: 'seed-32',
+    name: '오버워치',
+    author: '클로드',
+    reason: '항상 팀을 지키는 든든한 존재가 되길',
+  },
+];

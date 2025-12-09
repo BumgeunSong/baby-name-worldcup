@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm install:*)",
+      "Bash(vercel:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: 아기 이름 이상형 월드컵 앱 구현\n\n- 토너먼트 시스템 (2/4/8/16/32강 동적 라운드)\n- 후보 관리 페이지 (CRUD, CSV 업로드)\n- shadcn/ui 컴포넌트 및 핑크 파스텔 테마\n- localStorage 기반 상태 저장\n- 실시간 리더보드 (동점 처리 포함)\n- 선택 이펙트 애니메이션\n- 32개 시드 데이터 포함\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
