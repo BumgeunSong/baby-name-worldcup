@@ -39,6 +39,7 @@ export const seedCandidates: Candidate[] = [
     name: '오매기',
     author: '송범근',
     reason: '매순간을 기회로 만들어라 해서',
+    imageUrl: 'https://i.namu.wiki/i/D2BTofzRiG_OgPpPqdV-ldbECFmy7tDRnR68oJWHsSVrnuzl9K5HUOOGaW2S4AVKR97HnGDQHalCKVTveWlDRw.webp',
   },
   {
     id: 'seed-8',
@@ -108,11 +109,13 @@ export const seedCandidates: Candidate[] = [
     id: 'seed-19',
     name: '오케이',
     author: '조유진',
+    imageUrl: 'https://app.jjalbang.today/jjv2cQ.jpg',
   },
   {
     id: 'seed-20',
     name: '오라이',
     author: '주여진',
+    imageUrl: 'https://www.hjn24.com/news/photo/202303/117355_121653_2232.jpg',
   },
   {
     id: 'seed-21',
@@ -182,5 +185,6 @@ export const seedCandidates: Candidate[] = [
     name: '오버워치',
     author: '클로드',
     reason: '항상 팀을 지키는 든든한 존재가 되길',
+    imageUrl: 'https://i.namu.wiki/i/dK6HIdtU2PZqXD8UnmMpFlkm-eKwPiLdNek5zAAzUNywC55xUx7dH4DdX9MXZXAeFo7-CEDvIBhdVl1ryOu4TA.webp',
   },
 ];
