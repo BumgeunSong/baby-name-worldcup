@@ -2,37 +2,11 @@ import { Candidate } from '@/types';
 
 export const seedCandidates: Candidate[] = [
   {
-    id: 'seed-1',
-    name: '오전',
-    author: '송형선',
-    imageUrl: 'https://cdn-icons-png.freepik.com/512/5774/5774952.png',
-  },
-  {
-    id: 'seed-2',
-    name: '오후',
-    author: '송형선',
-    imageUrl: 'https://cdn-icons-png.flaticon.com/512/6854/6854657.png',
-  },
-  {
-    id: 'seed-3',
-    name: '오늘',
-    author: '송형선',
-  },
-  {
     id: 'seed-4',
     name: '오물',
     author: '송형선',
-    reason: '아기 입모양 오물오물 생각했는데',
-  },
-  {
-    id: 'seed-5',
-    name: '오리',
-    author: '송형선',
-  },
-  {
-    id: 'seed-6',
-    name: '오해',
-    author: '송형선',
+    reason: '아기 입모양 오물오물 생각했는데 오물 좀 그렇네요',
+    imageUrl: 'https://play-lh.googleusercontent.com/cUipx9psvK37lAwZmjbMucT9RQADJVmkoNVokGQdvreq_bq_HxKUJFUU0FUD_HAt7mdj6g8gYn7LGhnlfl1g=s1280-w1280-h720',
   },
   {
     id: 'seed-7',
@@ -52,6 +26,7 @@ export const seedCandidates: Candidate[] = [
     name: '오일장',
     author: '이병찬',
     reason: '항상 활기찬 삶을 살라고',
+    imageUrl: 'https://cdn.ikpnews.net/news/photo/202309/61545_37977_3530.jpg',
   },
   {
     id: 'seed-10',
@@ -59,12 +34,6 @@ export const seedCandidates: Candidate[] = [
     author: '최광희B',
     reason: '이과 -> 오펜하이머',
     imageUrl: 'https://i.namu.wiki/i/lzGhl-NVY2r8iacSh7khns8K3b4QT7JmJzM1KIhGAOKYtkTq-BY000E4LQj75MEV_if6Sb0Z_tFkDkSyokoyvg.webp',
-  },
-  {
-    id: 'seed-11',
-    name: '오천석',
-    author: '최광희B',
-    reason: '문과 -> 오천석',
   },
   {
     id: 'seed-12',
@@ -80,30 +49,10 @@ export const seedCandidates: Candidate[] = [
     imageUrl: 'https://blog.kakaocdn.net/dna/M9bN5/btsIdhdcSEB/AAAAAAAAAAAAAAAAAAAAAFMZYBVYYC3jrvUVWaIjem8Ov09_x2DJJtqMAKshAwdI/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=AgWLIVU%2FizAEwJIa9xFTW0NK3To%3D',
   },
   {
-    id: 'seed-14',
-    name: '오대양',
-    author: '주여진',
-  },
-  {
-    id: 'seed-15',
-    name: '오억원',
-    author: '주여진',
-    reason: '(reference: 이억원 금융위 위원장)',
-  },
-  {
-    id: 'seed-16',
-    name: '오세용',
-    author: '조유진',
-  },
-  {
-    id: 'seed-17',
-    name: '오필승',
-    author: '조유진',
-  },
-  {
     id: 'seed-18',
     name: '오운완',
     author: '조유진',
+    imageUrl: 'https://cdn.press.ajou.ac.kr/news/photo/202305/3376_2074_473.png',
   },
   {
     id: 'seed-19',
@@ -118,24 +67,16 @@ export const seedCandidates: Candidate[] = [
     imageUrl: 'https://www.hjn24.com/news/photo/202303/117355_121653_2232.jpg',
   },
   {
-    id: 'seed-21',
-    name: '오필승코리아',
-    author: '박태임',
-  },
-  {
     id: 'seed-22',
     name: '오재점출',
     author: '주여진',
-  },
-  {
-    id: 'seed-23',
-    name: '오창영',
-    author: '박태임',
+    imageUrl: 'https://media.licdn.com/dms/image/v2/C5622AQFZ1ADaqrmsBw/feedshare-shrink_800/feedshare-shrink_800/0/1674032209622?e=2147483647&v=beta&t=FoDgHs8PgHfb3ei_kJGiczNAA0ixSKFHlz2kC2rx_3A',
   },
   {
     id: 'seed-24',
     name: '오겡끼데스까',
     author: '주여진',
+    imageUrl: 'https://mblogthumb-phinf.pstatic.net/20160614_129/goldcontent_1465830399746Tgqt5_JPEG/1456054137689_1.jpg?type=w800',
   },
   {
     id: 'seed-25',
@@ -174,17 +115,91 @@ export const seedCandidates: Candidate[] = [
     reason: '감탄사처럼 놀라운 존재가 되길',
   },
   {
-    id: 'seed-31',
-    name: '오징어',
-    author: '클로드',
-    reason: '유연하게 어디든 적응하는 사람이 되길',
-    imageUrl: 'https://img.freepik.com/free-vector/cute-squid-character-seafood-restaurant-logo-hand-draw-vector-illustration_56104-2130.jpg?semt=ais_se_enriched&w=740&q=80',
-  },
-  {
     id: 'seed-32',
     name: '오버워치',
     author: '클로드',
     reason: '항상 팀을 지키는 든든한 존재가 되길',
     imageUrl: 'https://i.namu.wiki/i/dK6HIdtU2PZqXD8UnmMpFlkm-eKwPiLdNek5zAAzUNywC55xUx7dH4DdX9MXZXAeFo7-CEDvIBhdVl1ryOu4TA.webp',
+  },
+  {
+    id: '67217685-cd74-43d4-83c6-f652ad864f4f',
+    name: '오쪼라고',
+    author: '조성윤',
+    reason: '주관있게 자신의 삶을 살아가라는 뜻에서',
+  },
+  {
+    id: '34cab1f9-d337-4d44-a816-2de5c87abf2b',
+    name: '오잉',
+    author: '조유진',
+    reason: '매사에 호기심을 가지라는 측면에서',
+  },
+  {
+    id: 'bb7de188-c53d-41ec-9f99-ac81950b17b2',
+    name: '오곡코코볼',
+    author: '조유진',
+    reason: '그냥 맛있음',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXstKZA39rdVYUQ1XkMyfgO5p85y9Qk4OdA&s',
+  },
+  {
+    id: 'e8454ede-01bc-4485-886f-759507eba414',
+    name: '오션뷰',
+    author: '조유진',
+    reason: '프로포즈 하기 좋음',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY3-dA-XNN5uYAcf0WK600cgwENqygzMygJA&s',
+  },
+  {
+    id: 'af78970a-5bde-4972-b3ae-aef7efe2b2f9',
+    name: '오장육부',
+    author: '조유진',
+    reason: '장기자랑에 특화된 이름',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR10A7nfLGWYTkpUf2-LUuOqi8EI_MhiRJwdQ&s',
+  },
+  {
+    id: '3eb25b1e-b5e3-4728-928f-37f00b597b57',
+    name: '오선지',
+    author: '조유진',
+    reason: '음악전공하라고',
+    imageUrl: 'https://cdn.imweb.me/thumbnail/20230113/b6c301fddc84a.png',
+  },
+  {
+    id: '3c58aeb2-7ac2-4c1a-9c38-5317b0b7bde4',
+    name: '오지랖',
+    author: '조성윤',
+    reason: '세상 사람들에게 따뜻한 관심과 애정을 주라고',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-FCO-9iXmgqJav-FO9NPnrSE1Ppfii-I7g&s',
+  },
+  {
+    id: '917191ce-a0c9-4384-8649-8bc123d2571f',
+    name: '오쏘몰',
+    author: '주여진',
+    reason: '비타민 같은 사람이 돼라',
+    imageUrl: 'https://img.ssgdfs.com/upload/C00001/goos/org/177/240724000582177.jpg',
+  },
+  {
+    id: '9c394b6c-2981-470d-af9c-de2adec4ca1d',
+    name: '오카리나',
+    author: '최광희',
+  },
+  {
+    id: 'bbba553e-923a-4c5e-8048-fd1bbe7e54b2',
+    name: '오돌뼈',
+    author: '최광희',
+  },
+  {
+    id: 'e435ed55-6074-4889-b3dc-09573c867b04',
+    name: '오육칠팔구',
+    author: '익명',
+  },
+  {
+    id: 'ae6b2c76-04c3-45ab-908a-1884f44ed707',
+    name: '오매',
+    author: '최광희',
+    reason: '목포 스타일\n외국가면 오마이갓',
+  },
+  {
+    id: '4e4638b2-54ec-480d-9d42-3e60dbfe7e80',
+    name: '오감자',
+    author: '익명',
+    reason: '누군가의 최애',
   },
 ];
